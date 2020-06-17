@@ -18,14 +18,14 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name"
+        android:hint="Họ tên"
         android:textAlignment="center"
         android:id="@+id/edtNameadd"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Birthday"
+        android:hint="Ngày sinh"
         android:textAlignment="center"
         android:id="@+id/edtBirthdayadd"/>
 
@@ -41,14 +41,14 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Location"
+        android:hint="Quê quán"
         android:textAlignment="center"
         android:id="@+id/edtLocaadd"/>
     <Button
         android:id="@+id/btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add"
+        android:text="THÊM"
         android:textSize="25sp"
         android:layout_gravity="center"/>
 

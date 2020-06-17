@@ -102,12 +102,6 @@ public class MainActivity extends AppCompatActivity {
         Log.v("TAG", "Select data");
         selectData();
 
-//        Log.v("TAG", "Select data insert");
-//        insertRecords();
-//        selectData();
-//        Log.v("TAG", "Select data delete");
-//        deleteRecords();
-//        selectData();
 
     }
 
@@ -128,12 +122,8 @@ public class MainActivity extends AppCompatActivity {
                     "Gmail text," +
                     "Loca text)");
 
-            db.execSQL("insert into tblSTUDENT(MSSV, NAME, BirthDay, Gmail, Loca) values ('20173310', 'Nguyen Ba Quan', '17/08/1999', 'quan@gmail' , 'HUST')");
-            db.execSQL("insert into tblSTUDENT(MSSV, NAME, BirthDay, Gmail,Loca) values ('20173311', 'Nguyen Ba Quan', '17/08/1999', 'quan@gmail' ,'HUST')");
-            db.execSQL("insert into tblSTUDENT(MSSV, NAME, BirthDay, Gmail,Loca) values ('20173312', 'Nguyen Ba Quan', '17/08/1999', 'quan@gmail' ,'HUST')");
-            db.execSQL("insert into tblSTUDENT(MSSV, NAME, BirthDay, Gmail,Loca) values ('20173313', 'Nguyen Ba Quan', '17/08/1999', 'quan@gmail' ,'HUST')");
-            db.execSQL("insert into tblSTUDENT(MSSV, NAME, BirthDay, Gmail,Loca) values ('20173314', 'Nguyen Ba Quan', '17/08/1999',  'quan@gmail' , 'HUST')");
-            db.execSQL("insert into tblSTUDENT(MSSV, NAME, BirthDay, Gmail,Loca) values ('20173317', 'Nguyen Ba Quan', '17/08/1999', 'quan@gmail' ,'HUST')");
+            db.execSQL("insert into tblSTUDENT(MSSV, NAME, BirthDay, Gmail, Loca) values ('20173078', 'Nguyen truong giang', '14/01/1999', 'giang99n@gmail' , 'HN')");
+
 
 
             db.setTransactionSuccessful();
